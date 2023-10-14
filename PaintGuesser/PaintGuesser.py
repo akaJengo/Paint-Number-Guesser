@@ -5,6 +5,13 @@ import numpy as np
 
 
 
+'''
+Author: Micheal, Isaiah
+Description:
+
+'''
+
+
 #Constants
 WIDTH, HEIGHT = [280,280]
 SIZE = 280
@@ -20,10 +27,6 @@ window.title("Paint Guesser")
 Canvas = tk.Canvas(window, width=WIDTH, height=HEIGHT, bg='white')
 Canvas.pack() #It like initializes the frame or canvas or whatever
 
-#Converting to greyscale
-#def Grey(rgb):
-    #Greyscale = np.dot(rgb[:3], [0.2989, 0.5870, 0.1140])
-    #return Greyscale
 
 model = tf.keras.Sequential()
 model.add(tf.keras.Input(784,))
@@ -79,7 +82,6 @@ which function you want to call when B1 motion or left button (m1) is clicked an
 the same time.
 
 '''
-#Grey(pixelArray)
 
 window.mainloop()
 
