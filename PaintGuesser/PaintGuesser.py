@@ -6,7 +6,7 @@ import numpy as np
 
 
 '''
-Author: Micheal, Isaiah
+Author: Micheal, Wigaloo
 Description:
 
 '''
